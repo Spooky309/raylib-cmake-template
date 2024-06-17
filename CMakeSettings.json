@@ -8,14 +8,7 @@
 			"buildRoot": "${projectDir}\\out\\build\\${name}",
 			"installRoot": "${projectDir}\\out\\install\\${name}",
 			"buildCommandArgs": "",
-			"ctestCommandArgs": "",
-			"variables": [
-				{
-					"name": "BUILD_EXAMPLES",
-					"value": "False",
-					"type": "BOOL"
-				}
-			]
+			"ctestCommandArgs": ""
 		},
 		{
 			"name": "x64-Clang-Release",

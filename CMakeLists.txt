@@ -5,6 +5,6 @@ ADD_SUBDIRECTORY(submodules/raylib)
 
 SET(CMAKE_C_STANDARD 99)
 
-ADD_EXECUTABLE(rr "src/main.c" "src/plum.c")
+ADD_EXECUTABLE(rr "src/main.c")
 TARGET_LINK_LIBRARIES(rr PUBLIC raylib)
 INSTALL(TARGETS rr)

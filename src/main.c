@@ -11,7 +11,7 @@ int main( void ) {
 	camera.zoom = 1.0f;
 
 	while ( !WindowShouldClose() ) {
-		BeginDrawing()
+		BeginDrawing();
 		{
 			const Vector2 pos = { 190, 200 };
 			ClearBackground( RAYWHITE );
